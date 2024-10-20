@@ -1,11 +1,11 @@
-export VAULT_ADDR="http://127.0.0.1:8200"
+export VAULT_ADDR="https://10.1.3.121:8200"
 
-HOST_STRING="template"
-SLD_STRING="middleearth"
-TLD_STRING="test"
+HOST_STRING="expernet"
+SLD_STRING="cloudtech"
+TLD_STRING="team"
 DOMAIN_STRING="${SLD_STRING}.${TLD_STRING}"
 SUBJECT_CN_STRING="${HOST_STRING}.${DOMAIN_STRING}"
-ISSUER_NAME_CN_STRING="Lord of the Rings"
+ISSUER_NAME_CN_STRING="expernet cloud tech"
 
 VAULT_ROLE_STRING="common_vault_role"
 NO_TLS_STRING="-tls-skip-verify"
